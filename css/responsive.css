@@ -1,0 +1,10 @@
+@media(max-width: 1024px){
+    #about img{
+        width: 45%;
+    }
+}
+@media(max-width: 620px){
+    #about img{
+        display: none;
+    }
+}
