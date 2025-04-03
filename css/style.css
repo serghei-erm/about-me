@@ -152,6 +152,7 @@ section li {
     object-fit: cover;
     transition: 0.4s;
     border-radius: 20px;
+    cursor: pointer;
 }
 #projects li {
     display: grid;
