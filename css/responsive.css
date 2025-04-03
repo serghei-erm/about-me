@@ -17,3 +17,8 @@
 @media(max-width: 470px){
     #contacts{font-size: 14px}
 }
+@media(max-width: 320px){
+    section li {
+    margin: 0 5px
+}
+}
