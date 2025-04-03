@@ -9,3 +9,11 @@
     }
     .about_text{width: 100%}
 }
+@media(max-width: 554px){
+    #projects img {
+    height: 220px;
+    }
+}
+@media(max-width: 470px){
+    #contacts{font-size: 14px}
+}
