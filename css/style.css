@@ -141,7 +141,7 @@ section li {
     margin: 0 10px;
 }
 
-#skills li {background: #2c2c2c;padding: 10px;border-radius: 5px;font-size: 1rem;padding: 15px 40px;border: solid 2px #626262;}
+#skills li {background: #2c2c2c;padding: 10px;border-radius: 5px;font-size: 20px;padding: 15px 40px;border: solid 2px #626262;}
 
 #skills img {
     width: 90px;
@@ -153,14 +153,11 @@ section li {
     transition: 0.4s;
     border-radius: 20px;
 }
-
-#projects img:hover {
-    width: 70%;
-    height: 100%;
-    transition: 0.6s;
-}
 #projects li {
     display: grid;
+    background: #2e2e2e;
+    border-radius: 20px;
+    transition: 0.5s;
 }
 a {text-decoration: none;color: #ffffff;margin: 15px 0;}
 .contacts {
@@ -171,4 +168,15 @@ a {text-decoration: none;color: #ffffff;margin: 15px 0;}
 }
 #contact h2 {
     margin-top: 0;
+}
+#projects a {
+    text-align: center;
+}
+#projects a {
+    text-align: center;
+}
+
+#projects li:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
 }
