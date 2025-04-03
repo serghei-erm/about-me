@@ -8,6 +8,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #1f1f1f;
     color: #afafaf;
+    font-size: 1rem;
 }
 
 header {
@@ -132,8 +133,9 @@ p {
     font-size: 15px;
     margin-bottom: 20px;
 }
-section ul {
+#projects ul, #skills ul {
     display: flex;
+    font-size: 0.8rem;
 }
 section li {
     margin: 0 10px;
